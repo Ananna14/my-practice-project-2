@@ -1,3 +1,7 @@
+/* google-font  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 body{
     margin: 0px;
     background-color:  #fcf5de;
@@ -47,6 +51,7 @@ margin-left: 400px;
     color:#193765;
    font-size: 20px;
    /* background-color:  #fcf5de; */
+  padding-bottom: 40px;
 }
 .middle a{
     /* background-color: #193765; */
@@ -64,6 +69,90 @@ background-color: #193765;
 color:white;
 }
 /* img  */
+.bg-color{
+    background-color: white;
+}
 .img{
-  grid-template-columns: 1fr;
+   display: flex;
+   margin-top: 200px;
+    margin-left: 120px; 
+   background-color: white;
+}
+.img-1{
+    width:400px;
+    box-shadow: 0 8px 34px 0 rgb(40 40 43 / 6%);
+     margin-top: 30px; 
+     height: 400px;
+    left: 0px;
+    max-width: 312px;
+    border-radius: 16px; 
+    background-color: white;
+}
+.img-2{
+    transform: translateY(-60px);
+    border-radius: 16px;
+    background-color: white;
+}
+/* img-end  */
+.d-flex{
+    display: flex;
+    color:#6f7f96;
+    /* margin-left: 80px; */
+}
+.d-flex h1{
+    margin-left: 150px;
+    margin-top: 70px;
+}
+/* middle-h1  */
+.head{
+    text-align: center;
+     margin-top: 110px;
+}
+.middle-2{
+    display: flex;
+    color: black;
+    text-align: center;
+}
+.middle-2 div{
+    margin-left: 70px;
+    margin-top: 70px;
+}
+/* sing up  */
+.flex{
+    display: flex;
+    background-color: #193765;
+    color: white;
+    margin-top: 110px;
+}
+.flex a{
+    color: white;
+    text-decoration: none;
+    /* margin-left: 300px; */
+    border: 1px solid black;
+    padding:10px;
+}
+.heading{
+    margin-left: 100px;
+    text-align: center;
+}
+.start{
+    margin-top: 80px;
+    margin-left: 400px;
+
+    
+}
+.start a{
+    border-radius: 20px;
+}
+.start a:hover{
+   background-color: white;
+   color: #193765;
+}
+/* according  */
+.according{
+    display: flex;
+     margin-top: 110px; 
+}
+.pic{
+     margin-left: 15px;
 }
